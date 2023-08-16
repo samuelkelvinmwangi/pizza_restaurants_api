@@ -1,9 +1,9 @@
 # README
 
-Pizza Restaurant Tracking API
+# Pizza Restaurant Tracking API
 Welcome to the Pizza Restaurant Tracking API! This API allows you to manage information about pizza restaurants, their pizzas, and associated data. You can retrieve information about restaurants, pizzas, and even create restaurant-pizza relationships.
 
-Table of Contents
+# Table of Contents
 -Getting Started
 -Endpoints
 -GET /restaurants
@@ -14,7 +14,7 @@ Table of Contents
 -Contributing
 -License
 
-Getting Started
+# Getting Started
 To get started with the API, follow these steps:
 
 Clone this repository to your local machine:
@@ -36,9 +36,9 @@ bash
 rails server
 Now your API is up and running on http://localhost:3000. You can use any API testing tool to interact with it.
 
-Endpoints
+# Endpoints
 
-GET /restaurants
+# GET /restaurants
 Returns a list of all restaurants.
 
 Response:
@@ -60,7 +60,7 @@ json
     "updated_at": "2023-08-16T11:08:42.246Z"
   }
 ]
-GET /restaurants/:id
+# GET /restaurants/:id
 Returns a restaurant with pizzas by ID.
 
 Response:
@@ -85,11 +85,11 @@ json
     }
   ]
 }
-DELETE /restaurants/:id
+# DELETE /restaurants/:id
 Deletes a restaurant by ID and its associated restaurant-pizza relationships.
 
 
-GET /pizzas
+# GET /pizzas
 Returns a list of all pizzas.
 
 Response:
@@ -107,13 +107,13 @@ json
     "ingredients": "Dough, Tomato Sauce, Cheese, Pepperoni"
   }
 ]
-POST /restaurant_pizzas
+# POST /restaurant_pizzas
 Creates a new restaurant-pizza relationship.
 
-Contributing
+# Contributing
 Contributions are welcome! Feel free to submit a pull request. and add to the code
 so as to make it more functional and more informative while developing and fixing
 the errors
 
-License
+# License
 This project is licensed under the MIT License.
